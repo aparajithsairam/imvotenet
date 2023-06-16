@@ -1,0 +1,3 @@
+[submodule "sunrgbd"]
+	path = sunrgbd
+	url = https://github.com/aparajithsairam/SUN-RGBD.git
