@@ -1,0 +1,9 @@
+.idea/
+log/
+sunrgbd/
+models/__pycache__/
+pointnet2/build/
+pointnet2/dist/
+pointnet2/pointnet2.egg-info/
+pointnet2/__pycache__/
+utils/
