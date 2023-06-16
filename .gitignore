@@ -1,6 +1,5 @@
 .idea/
 log/
-sunrgbd/
 models/__pycache__/
 pointnet2/build/
 pointnet2/dist/
