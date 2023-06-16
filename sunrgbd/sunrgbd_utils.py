@@ -193,7 +193,8 @@ def load_depth_points(depth_filename):
     return depth
 
 def load_depth_points_mat(depth_filename):
-    depth = sio.loadmat(depth_filename)['instance']
+    depth_mat = sio.loadmat(depth_filename, verify_compressed_data_integrity=False)
+    depth = depth_mat['points3d_rgb']
     return depth
 
 def random_shift_box2d(box2d, shift_ratio=0.1):
