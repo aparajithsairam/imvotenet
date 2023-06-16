@@ -24,12 +24,12 @@ conda install pytorch torchvision cudatoolkit=10.0 -c pytorch
 ```
 Next, install Python dependencies via `pip` ([tensorboardX](https://github.com/lanpa/tensorboardX) is used for for visualizations):
 ```bash
-pip install matplotlib opencv-python plyfile tqdm networkx==2.2 trimesh==2.35.39
+pip install matplotlib opencv-python plyfile tqdm networkx trimesh==2.35.39
 pip install tensorboardX --no-deps
 ```
 Now we are ready to clone this repository:
 ```bash
-git clone git@github.com:facebookresearch/imvotenet.git
+git clone https://github.com/aparajithsairam/imvotenet.git
 cd imvotenet
 ```
 The code depends on [PointNet++](http://arxiv.org/abs/1706.02413) as a backbone, which needs compilation:
