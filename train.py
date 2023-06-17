@@ -55,7 +55,7 @@ parser.add_argument('--num_target', type=int, default=256, help='Proposal number
 parser.add_argument('--vote_factor', type=int, default=1, help='Vote factor [default: 1]')
 parser.add_argument('--cluster_sampling', default='vote_fps', help='Sampling strategy for vote clusters: vote_fps, seed_fps, random [default: vote_fps]')
 parser.add_argument('--ap_iou_thresh', type=float, default=0.25, help='AP IoU threshold [default: 0.25]')
-parser.add_argument('--batch_size', type=int, default=4, help='Batch Size during training [default: 8]')
+parser.add_argument('--batch_size', type=int, default=8, help='Batch Size during training [default: 8]')
 parser.add_argument('--learning_rate', type=float, default=0.001, help='Initial learning rate [default: 0.001]')
 parser.add_argument('--weight_decay', type=float, default=0, help='Optimization L2 weight decay [default: 0]')
 parser.add_argument('--bn_decay_step', type=int, default=20, help='Period of BN decay (in epochs) [default: 20]')
